@@ -1,0 +1,87 @@
+@import url(styles.css);
+
+body::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #862924;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.473);
+}
+
+.search {
+    background: transparent;
+    border: 1px solid #d6d6ee;
+    border-radius: 99rem;
+    outline: none;
+    padding: .4rem 0 .4rem .9rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 1.5rem ;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.product-card {
+    box-shadow: 1px -1px 3px 1px rgba(0, 0, 0, 0.322);
+    border-radius: .9rem .9rem .9rem .9rem;
+}
+
+.product-card h2 {
+    text-align: center;
+    color: #fff;
+    background: #BE7230;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem 0 1rem 0;
+    border-radius: .9rem .9rem 0 0;
+}
+
+.text {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: #48484bce;
+    line-height: 1.8rem;
+}
+
+.text i {
+    font-size: 1.8rem;
+}
+
+.text p:nth-of-type(1){
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2  rem;
+    font-weight: bold;
+    color: #6e6e6eec;
+    letter-spacing: .1rem;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+}
+
+.justify {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonPageFood {
+    cursor: pointer;
+    border: none;
+    background: #F4A15D;
+    padding: .8rem 3rem ;
+    border-radius: 99999px;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    min-width: 15rem;
+}

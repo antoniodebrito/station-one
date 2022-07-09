@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - Pâtissier</title>
+    <link rel="stylesheet" href="assets/css/sign-up.css">
+    <link rel="shortcut icon" href="assets/img/icon" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>    
+            <h1>Signup</h1>
+        </header>
+
+        <form class="checkin-user" id="formSignUp">
+            <div class="registerFields">
+                <label for="email">Email</label>
+                <input class="inputClass" type="email" id="email" placeholder="Enter email..." required>
+                <span class="emailInUse">Email address already in use</span>
+            </div>
+            <div class="registerFields">
+                <label for="password">Password</label>
+                <input class="inputClass" type="password" id="password" placeholder="Enter password..." required>
+            </div>
+        </form>
+        <div class="justify">                
+            <button class="button-checkin" id="signupButton"  form="formSignUp" type="submit">SIGNUP</button>
+        </div>
+
+        <div>
+            <button class="redirectionButton" id="alreadyAccountButton">Already have an account ?</button>
+        </div>
+    </div>
+  
+    <script src="assets/js/signup.js"></script>
+</body>
+
+</html>

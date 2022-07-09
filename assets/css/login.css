@@ -1,0 +1,12 @@
+@import url(styles.css);
+
+.wrapper {
+    gap: 2.4rem;
+    padding: 8rem 0rem;
+}
+
+#loginButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Pâtissier</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        
+        <header>
+            <h1>Login</h1>
+        </header>
+    
+        <form class="checkin-user" id="formLogin">
+            <div class="registerFields">
+                <label for="email">Email</label>
+                <input class="inputClass" type="email" id="email" placeholder="Enter email..." required>
+            </div>
+            <div class="registerFields">
+                <label for="password">Password</label>
+                <input class="inputClass" type="password" id="password" placeholder="Enter password..." required>
+            </div>
+        </form>
+
+        <div id="loginButtons">
+            <button class="justify button-checkin" id="login" form="formLogin" type="submit">Login</button>
+            <button id="forgotButton" class="justify forgotPasswordButton">FORGOT PASSWORD ?</button>
+        </div>
+        
+        <div>
+            <button class="redirectionButton">SIGNUP</button>
+        </div>
+    </div>
+
+    <script src="assets/js/login.js"></script>
+</body>
+
+</html>
