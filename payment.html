@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="step-order-bar">
+
+        </div>
+
+        <div class="ordered">
+            <p>Items Ordered</p>
+            <p>No List Items</p>
+
+            <label for="adicional-notes">Add Notes</label>
+            <input type="text" id="adicional-notes" placeholder="Add adicional notes">
+        </div>
+
+        <div class="price">
+            <h2>Preço</h2>
+            <p>Total antes da taxa</p>
+            <p>Tax Amount</p>
+            <p>R$ 0.00</p>
+        </div>
+
+        <div class="total">
+            <p>total</p>
+            <p>R$ 0.00</p>
+        </div>
+
+        <div class="pay-finished">
+            <h2>Payment</h2>
+            <span class="error">
+                An unknown error ocurred. Please make sure your card number is correct and try again.
+            </span>
+
+            <label for="select-card">Credit or debit card</label>
+            <input type="text" name="select-card" id="select-card" placeholder="Card Number">
+        </div>
+
+    </div>
+
+    <div>
+        <button>CHECKOUT - (0)</button>
+    </div>
+</body>
+
+</html>
