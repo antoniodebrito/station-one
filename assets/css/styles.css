@@ -52,8 +52,6 @@ h1 {
     margin: 3rem;
 }
 
-
-
 img {
     width: 100%;
     height: auto;
@@ -72,6 +70,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 /*=== formulário ====================== */

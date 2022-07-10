@@ -1,3 +1,4 @@
+@import url(styles.css);
 
 .wrapper {
     color: #48484bce;
@@ -5,7 +6,6 @@
     align-items: flex-start;
     gap: 1rem;
 
-    height: 72vh;
 }
 
 .wrapper p {
