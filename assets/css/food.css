@@ -1,17 +1,6 @@
 @import url(styles.css);
 
-body::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 10rem;
-    position: sticky;
-    top: 0;
-    left: 0;
-    background: #862924;
-    margin-bottom: 2rem;
-    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.473);
-}
+
 
 .search {
     background: transparent;

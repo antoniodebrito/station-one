@@ -18,6 +18,8 @@
     --secondary-text-color: #b0b0b1;
     --bg-second-color: #dfdff77e;
     --border-color: #d6d6ee;
+
+    overflow-x: hidden;
 }
 
 html,
@@ -32,6 +34,18 @@ body {
     font-family: var(--ff-primary);
 }
 
+.top::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #862924;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.473);
+}
 
 h1 {
     font-size: 2.4rem;
@@ -141,6 +155,6 @@ button {
     background: #fff;
 
     font-size: 1.3rem;
-    color: ;
+    color: var(--primary-text-color);
 }
 
